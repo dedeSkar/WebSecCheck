@@ -58,10 +58,10 @@ VirusTotal Security vendors' analysis : 8/96
 VirusTotal Security vendors' that found it Malicious: ['alphaMountain.ai', 'CRDF', 'CyRadar', 'Dr.Web', 'Fortinet', 'Kaspersky', 'Seclookup', 'Webroot']
 ```
 
-## Ongoing Improvements
+## Roadmap
 
 - [ ] Integrate a total of seven scanners for broader coverage.  
 - [ ] Add detailed comments throughout the code for clarity.
-- [ ] Integrate ability to search in Malware list if website is flagged  
+- [ ] Integrate ability to search in Malware lists to see if website is flagged  
 - [ ] Present the gathered data in a user-friendly format for non-technical audiences.  
 - [ ] Automatically forward the retrieved information to AI for an insightful summary of results. 
