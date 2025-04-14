@@ -1,9 +1,6 @@
 import requests
 import datetime
 
-VTApiKey = ""
-website_url = "delfi.lt"
-
 def Submit_URL_VT(VTApiKey, website_url):
     url = "https://www.virustotal.com/api/v3/urls"
     headers = {
@@ -76,5 +73,3 @@ def VT_Main(VTApiKey, website_url):
     Report = Get_URL_VT(VTApiKey, VT_ID)
     parsed_report = Parse_VT_Report(Report)
     return parsed_report
-    
-print(VT_Main(VTApiKey, website_url))
