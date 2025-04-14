@@ -11,9 +11,16 @@
 
 1. **Configure VirusTotal**  
    - Open the `main.py` file.  
-   - Insert your VirusTotal API key into the designated variable ```VTApiKey```.  
+   - Insert your VirusTotal API key into the designated variable ```VTApiKey```.
 
-2. **Start the Scan**  
+2. **Register your email on "Qualys SSL Lab"**
+   - Open your terminal
+   - Insert this code, before changing it, more information can be found here: https://github.com/ssllabs/ssllabs-scan/blob/master/ssllabs-api-docs-v4.md#register-
+   ```
+   curl --location 'https://api.ssllabs.com/api/v4/register'  --header 'Content-Type: application/json' --data '{ "firstName":"John", "lastName":"Doe", "email":"jdoe@someoraganizationemail.com", "organization":"Some Organization"}'
+   ```
+
+3. **Start the Scan**  
    - Run the `main.py` script.  
    - Enter the URL you wish to scan when prompted.  
 
