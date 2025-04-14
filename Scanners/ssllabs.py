@@ -1,4 +1,5 @@
 import requests
+import time
 
 def sslLabs_register(sslLabs_email):
     data = {
@@ -40,4 +41,9 @@ def main_sslLabs(sslLabs_email, website_url):
         time.sleep(15)
         ip_address, assessment_status = sslLabs_start_assessment(website_url, sslLabs_email)
     grade = sslLabs_get_analysis(website_url, ip_address, sslLabs_email)
-    return ip_address, grade
+    SSL_Report = {
+        "ip_address": ip_address,
+        "grade": grade,
+        "assessment_status": assessment_status 
+    }
+    return SSL_Report
