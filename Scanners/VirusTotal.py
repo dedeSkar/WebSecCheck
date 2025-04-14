@@ -1,5 +1,6 @@
 import requests
 import datetime
+import time
 
 def Submit_URL_VT(VTApiKey, website_url):
     url = "https://www.virustotal.com/api/v3/urls"
@@ -15,6 +16,8 @@ def Submit_URL_VT(VTApiKey, website_url):
         URL_ID = URL_ID[2:]
     if "-" in URL_ID:
         URL_ID = URL_ID.split("-")[0]
+    time.sleep(15)
+    # Giving VT enough time to analyse given Website
     return URL_ID
 
 def Get_URL_VT(VTApiKey, website_id):
