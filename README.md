@@ -15,7 +15,7 @@
 
 2. **Register your email on "Qualys SSL Lab"**
    - Open your terminal
-   - Insert this code, before changing it, more information can be found here: https://github.com/ssllabs/ssllabs-scan/blob/master/ssllabs-api-docs-v4.md#register-
+   - Insert this code, before changing it, more information can be found in [Qualys SSL Labs documentation](https://github.com/ssllabs/ssllabs-scan/blob/master/ssllabs-api-docs-v4.md#register-)
    ```
    curl --location 'https://api.ssllabs.com/api/v4/register'  --header 'Content-Type: application/json' --data '{ "firstName":"John", "lastName":"Doe", "email":"jdoe@someoraganizationemail.com", "organization":"Some Organization"}'
    ```
