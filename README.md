@@ -61,6 +61,7 @@ VirusTotal Security vendors' that found it Malicious: ['alphaMountain.ai', 'CRDF
 ## Ongoing Improvements
 
 - [ ] Integrate a total of seven scanners for broader coverage.  
-- [ ] Add detailed comments throughout the code for clarity.  
+- [ ] Add detailed comments throughout the code for clarity.
+- [ ] Integrate ability to search in Malware list if website is flagged  
 - [ ] Present the gathered data in a user-friendly format for non-technical audiences.  
 - [ ] Automatically forward the retrieved information to AI for an insightful summary of results. 
