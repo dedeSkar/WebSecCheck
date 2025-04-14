@@ -4,7 +4,7 @@ sslLabs_email = "test4@testing-sorry.lt"
 website_url = "lrt.lt"
 
 def sslLabs_register(sslLabs_email):
-    # Tik pradiniai registracijai reikalingas, nereiketu iskviesti sios funkcijos
+    # Should be used only once
     data = {
         "firstName" : "test",
         "lastName" : "test",
