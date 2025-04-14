@@ -28,7 +28,7 @@
 
 ## Use case example
 
-- Non malicious example(Google.com)
+- Non malicious example ```Google.com```
 
 ```
 Website Security analysis
@@ -43,7 +43,7 @@ VirusTotal Security vendors' analysis : 0/97
 VirusTotal Security vendors' that found it Malicious: []
 ```
 
-- Malicious example(coherentinflationescort[.]com)
+- Malicious example ```coherentinflationescort[.]com```
   
 ```
 Website Security analysis
