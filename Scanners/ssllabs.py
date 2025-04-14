@@ -1,21 +1,6 @@
 import requests
 import time
 
-def sslLabs_register(sslLabs_email):
-    data = {
-        "firstName": "test",
-        "lastName": "test",
-        "email": sslLabs_email,
-        "organization": "Testing usecase"
-    }
-    url = "https://api.ssllabs.com/api/v4/register"
-    response = requests.post(url, json=data) 
-    
-    return response.text
-
-# sslLabs_register(sslLabs_email)
-# Gonna leave this for testing, will clean this later
-
 def sslLabs_start_assessment(website_url, sslLabs_email):
     url = f"https://api.ssllabs.com/api/v4/analyze?host={website_url}"
     headers = {"email": sslLabs_email}
