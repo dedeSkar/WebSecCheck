@@ -1,13 +1,13 @@
 import requests
 
-sslLabs_email = "Rolandas.Jonaviciauskas4@testing-sorry.lt"
+sslLabs_email = "test4@testing-sorry.lt"
 website_url = "lrt.lt"
 
 def sslLabs_register(sslLabs_email):
     # Tik pradiniai registracijai reikalingas, nereiketu iskviesti sios funkcijos
     data = {
-        "firstName" : "Rolandas",
-        "lastName" : "Jonaviciauskas",
+        "firstName" : "test",
+        "lastName" : "test",
         "email" : sslLabs_email,
         "organization" : "Home use"
 }
